@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Mux - Coding Agent Multiplexer (prebuilt AppImage)
+EAPI=8
+HOMEPAGE=https://github.com/coder/mux https://mux.coder.com/
+KEYWORDS=~amd64 ~arm64
+LICENSE=AGPL-3
+RESTRICT=strip
+SLOT=0
+SRC_URI=amd64? ( https://github.com/coder/mux/releases/download/v0.26.1/mux-0.26.1-x86_64.AppImage -> mux-bin-0.26.1-x86_64.AppImage ) arm64? ( https://github.com/coder/mux/releases/download/v0.26.1/mux-0.26.1-arm64.AppImage -> mux-bin-0.26.1-arm64.AppImage )
+_md5_=5dbc6daeea23e064147590bcf6c039e0
